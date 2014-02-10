@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:id="@+id/allayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fond_taille_iphone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header"
+    />
+
+	<ImageButton
+    	android:id="@+id/armulti"
+    	android:background="@drawable/recherche_multicriteres"
+    	android:layout_width="260dp"
+    	android:layout_height="40dp"  
+    	android:layout_marginTop="20dp"    
+    	android:layout_marginBottom="10dp"        	  
+    	android:layout_gravity="center"/>
+
+	<ImageButton
+    	android:id="@+id/arcarte"
+    	android:background="@drawable/recherche_sur_la_carte"
+    	android:layout_width="260dp"
+    	android:layout_height="40dp"
+    	android:layout_marginBottom="20dp"    
+    	android:layout_gravity="center"/>
+	 
+	 <TextView
+      	android:id="@+id/abiens"
+      	android:text="@string/biens"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="20dp"    
+    	android:layout_gravity="center"
+	    />
+	 <view 
+	    class="com.jdi.CoverFlow"
+    	android:id="@+id/gallery1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" />
+		
+		</LinearLayout>

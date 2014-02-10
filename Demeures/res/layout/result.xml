@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout    
+android:id="@+id/bdllayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/fond_taille_iphone"
+android:orientation="vertical"
+>
+<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/header"
+    	/>
+<LinearLayout
+android:id="@+id/bdhlayout1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:padding="2dp"
+android:layout_margin="3dp"
+>
+<ImageView
+android:id="@+id/thumb1"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:src="@drawable/a1">
+</ImageView>
+<TextView
+android:id="@+id/text1"
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:textColor="#000" 
+android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+>
+</TextView>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/bdhlayout2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_margin="3dp"
+android:padding="2dp"
+>
+<ImageView
+android:id="@+id/thumb2"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:src="@drawable/a2">
+>
+</ImageView>
+<TextView
+android:id="@+id/text2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#000" 
+android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+>
+</TextView>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/bdhlayout3"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_margin="3dp"
+android:padding="2dp"
+>
+<ImageView
+android:id="@+id/thumb3"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:src="@drawable/a3">
+>
+</ImageView>
+<TextView
+android:id="@+id/text3"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:textColor="#000" 
+android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+>
+</TextView>
+</LinearLayout>
+
+</LinearLayout>
+    
+
+</RelativeLayout>

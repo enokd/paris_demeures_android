@@ -1,0 +1,6 @@
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_accueil" android:icon="@drawable/accueil" android:title="@string/menu_accueil"></item>
+        <item android:id="@+id/menu_favoris" android:icon="@drawable/favoris" android:title="@string/menu_favoris"></item>
+        <item android:id="@+id/menu_agence" android:icon="@drawable/lagence" android:title="@string/menu_agence"></item>
+        <item android:id="@+id/menu_contact" android:icon="@drawable/contact" android:title="@string/menu_contact"></item>
+    </menu>

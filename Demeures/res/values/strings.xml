@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DemeuresActivity!</string>
+    <string name="app_name">Demeures</string>
+    <string name="no_rss_feed">Loading RSS feed...</string>
+    
+    <!-- String used for Demeures offers -->
+    <string name="description">Description</string>
+    <string name="biens">Nos Biens récents</string>    
+    <string name="menu_accueil">Accueil</string>    
+    <string name="menu_favoris">Favoris</string>    
+    <string name="menu_agence">L\'agence</string>    
+    <string name="menu_contact">Contact</string>
+    <string name="engagements">Nous nous engageons auprès de nos vendeurs et nos acquéreurs à porter une attention toute particulière et personnalisée aux demandes qui nous sont faites afin de répondre au mieux des besoins de chacun.\n\nNous mettons tout en œuvre pour vous accompagner tout au long de votre parcours d’acquisition &amp; de location. A cet effet, nous mettons à votre disposition notre savoir-faire &amp; notre expertise en vous assurant toute notre discrétion ainsi qu’une confidentialité absolue.</string>
+    <string name="historique">Notre agence, installée depuis plus de 12 ans au cœur du Triangle d’Or est devenue une référence reconnue et incontournable dans la vente &amp; la location de biens immobiliers de prestige et bien situés.</string>
+    <string name="collaborateurs">Au fil des années, nous avons réuni une équipe de collaborateurs expérimentés parlant anglais, espagnol, portugais, italien &amp; iranien.</string>
+    <string name="prestations">Nous proposons également les services de partenaires auxquels vous êtes susceptibles de faire appel:\n\n- Notaire\n- Banque\n- Avocat\n- Fiscaliste\n- Entrepreneur\n- Architecte\n- Décorateur\n- Gestion locative\n\n\n\n\nCertains de nos biens n’étant pas publiés pour des raisons de confidentialité, n’hésitez pas à nous contacter pour nous préciser vos critères de recherche.</string>    
+</resources>

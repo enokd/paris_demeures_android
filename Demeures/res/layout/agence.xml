@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fond_taille_iphone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header"
+    />
+	<TextView
+	android:id="@+id/agence"
+	android:layout_width="fill_parent"
+	android:layout_height="20dp"
+	android:gravity="center"
+	android:background="@drawable/bandeau_agence"
+	>
+</TextView>
+	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	>
+	<ImageButton
+    	android:id="@+id/histo"
+    	android:background="@drawable/historique"
+    	android:layout_width="140dp"
+    	android:layout_height="40dp"  
+    	android:layout_margin="10dp"/>
+
+	<ImageButton
+    	android:id="@+id/engage"
+    	android:background="@drawable/engagements"
+    	android:layout_width="140dp"
+    	android:layout_height="40dp"
+	    android:layout_margin="10dp"/>
+	</LinearLayout>    	
+	<LinearLayout
+  		  android:layout_alignParentBottom="true"		  
+    	  android:orientation="horizontal"
+   		  android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+			<ImageButton
+    			android:id="@+id/collabo"
+    			android:background="@drawable/collaborateurs"
+    			android:layout_width="140dp"
+    			android:layout_height="40dp"
+	    		android:layout_margin="10dp"/>
+    		<ImageButton
+    			android:id="@+id/presta"
+    			android:background="@drawable/prestations"
+    			android:layout_width="140dp"
+    			android:layout_height="40dp"
+	    		android:layout_margin="10dp"/>
+    </LinearLayout>
+		
+</LinearLayout>

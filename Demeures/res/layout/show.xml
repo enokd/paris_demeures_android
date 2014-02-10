@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/bdrlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<LinearLayout
+android:id="@+id/bdllayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:background="@drawable/fond_taille_iphone"
+>
+<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/header"
+    	/>
+<TextView
+android:id="@+id/atitle"
+android:textColor="#000"
+android:textSize="12dp"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/bandeau_vierge"
+android:gravity="center"
+>
+</TextView>
+<!--ImageView
+android:id="@id/image"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+</ImageView-->
+<view 
+	    class="com.jdi.CoverFlow"
+    	android:id="@+id/gallery2"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" />  
+<TextView
+android:id="@+id/adesctitle"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="left"
+android:background="@drawable/bandeau_description">
+</TextView>
+<ScrollView
+    android:id="@+id/adescScroll"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:gravity="left">      
+    <TextView
+	android:id="@+id/adesc"
+	android:textColor="#000"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	</TextView>
+</ScrollView>
+<TextView
+android:id="@+id/acontact"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="left"
+android:background="@drawable/bandeau_contactez_nous"
+>
+</TextView>
+<LinearLayout 
+    android:id="@+id/contactlayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+    <TextView
+        android:id="@+id/agencetel"
+        android:text="tel: 01 56 43 41 41"
+        android:textColor="#000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="40dp"
+		android:gravity="left">
+    </TextView>
+    <TextView
+        android:id="@+id/agencefax"
+        android:textColor="#000"
+        android:text="fax: 01 56 43 41 42"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="right">
+    </TextView>
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/contactlytbuttons"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+    <ImageButton 
+        android:id="@+id/bmail"
+		android:layout_width="80dp"
+		android:layout_height="60dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:adjustViewBounds="true"
+		android:background="@drawable/ecrivez_nous"        
+        >
+    </ImageButton>
+    <ImageButton 
+        android:id="@+id/bappel"
+		android:layout_width="80dp"
+		android:layout_height="60dp"
+		android:layout_marginRight="20dp"
+		android:adjustViewBounds="true"
+		android:background="@drawable/appelez_nous"        
+        >
+    </ImageButton>
+        <ImageButton 
+        android:id="@+id/benvoi_ami"
+		android:layout_width="80dp"
+		android:layout_height="60dp"
+		android:adjustViewBounds="true"
+		android:background="@drawable/envoyez_a_un_ami"        
+        >
+    </ImageButton>      
+</LinearLayout>
+</LinearLayout>
+</RelativeLayout>
